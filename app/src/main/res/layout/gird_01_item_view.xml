@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <!--    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/iv_01"
+                android:layout_width="142px"
+                android:layout_height="142px"
+                android:layout_gravity="center"
+
+
+                android:tag="(142,142){0,0,0,0}"
+
+                fresco:placeholderImage="@mipmap/mrtx"
+                fresco:placeholderImageScaleType="fitXY"
+                fresco:roundAsCircle="true"
+                fresco:roundedCornerRadius="180dp" />
+
+            <ImageView
+                android:id="@+id/iv_02"
+                android:layout_width="36px"
+                android:layout_height="36px"
+                android:layout_gravity="center"
+                android:layout_marginLeft="-10dp"
+                android:alpha="0.5"
+                android:src="@drawable/selector_iv_applyvip_checkbox"
+                android:visibility="gone"
+                android:tag="{0,0,0,0}(36,36)" />
+
+        </LinearLayout>-->
+    <LinearLayout
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:layout_gravity="center"
+
+        android:tag="(150,150)"
+        android:orientation="horizontal">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/iv_01"
+            android:layout_width="142px"
+            android:layout_height="142px"
+
+            android:layout_gravity="center"
+            android:tag="(142,142){0,0,0,0}"
+
+
+            fresco:placeholderImage="@mipmap/ic_launcher"
+            fresco:placeholderImageScaleType="fitXY"
+            fresco:roundAsCircle="true"
+            fresco:roundedCornerRadius="180dp" />
+
+        <ImageView
+            android:id="@+id/iv_02"
+            android:layout_width="36px"
+            android:layout_height="36px"
+
+            android:layout_marginLeft="-50dp"
+            android:layout_marginTop="5px"
+            android:alpha="0.5"
+            android:src="@drawable/selector_iv_applyvip_checkbox"
+            android:tag="{-50,5,0,0}(36,36)"
+
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <!-- fresco:placeholderImage="@mipmap/mrtx"-->
+
+    <TextView
+        android:id="@+id/tv_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10px"
+        android:tag="(0,0,26){0,10,0,0}"
+
+        android:textColor="@color/colorBlack"
+        android:textSize="26px"
+        tools:text="name" />
+
+    <!--
+        <FrameLayout
+            android:layout_width="200px"
+            android:layout_height="184px"
+            android:layout_marginBottom="18px"
+            android:layout_marginLeft="15px"
+            android:layout_marginRight="15px"
+            android:layout_marginTop="18px"
+
+            android:orientation="vertical"
+            android:tag="{15,18,15,18}(200,184)">
+            &lt;!&ndash;
+               android:background="@drawable/shape_bg_girditemview"
+                    <com.facebook.drawee.view.SimpleDraweeView
+                        android:id="@+id/iv_01"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:tag="(0,0)"
+                        fresco:placeholderImage="@mipmap/ic_main_fifthfragment_camera"
+                        fresco:roundedCornerRadius="8dp" />&ndash;&gt;
+          &lt;!&ndash;  <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/iv_01"
+                android:layout_width="142px"
+                android:layout_height="142px"
+                android:layout_gravity="center"
+                android:tag="(142,142){0,0,0,0}"
+                fresco:placeholderImage="@mipmap/mrtx"
+                fresco:placeholderImageScaleType="fitXY"
+
+                fresco:roundAsCircle="true"
+                fresco:roundedCornerRadius="180dp" />&ndash;&gt;
+
+            <ImageView
+                android:id="@+id/iv_02"
+                android:layout_width="36px"
+                android:layout_height="36px"
+                android:layout_marginLeft="154px"
+                android:layout_marginTop="16px"
+                android:alpha="0.5"
+                android:src="@drawable/selector_iv_applyvip_checkbox"
+                android:tag="{154,16,0,0}(36,36)" />
+
+            <LinearLayout
+                android:layout_width="150px"
+                android:layout_height="38px"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginTop="60px"
+                android:alpha="0.5"
+                android:background="@drawable/shape_bg_applyvip_text"
+                android:gravity="center"
+                android:tag="{0,0,0,10}(150,38)"
+                android:textColor="@color/colorWhite">
+
+                &lt;!&ndash;<TextView
+                    android:id="@+id/tv_01"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:tag="(0,0,24)"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="24px"
+                    tools:text="name" />&ndash;&gt;
+            </LinearLayout>
+        </FrameLayout>-->
+</LinearLayout>

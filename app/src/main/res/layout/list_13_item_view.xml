@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/back_ground_jiaxi"
+        android:layout_width="match_parent"
+        android:layout_height="300px"
+        android:layout_marginLeft="24px"
+        android:layout_marginRight="24px"
+        android:background="@mipmap/jiaxiquan_selected"
+        android:orientation="vertical"
+        android:tag="(0,300){24,0,24,0}">
+        <!--  <TextView
+              android:id="@+id/tv_01"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+
+
+              android:layout_marginRight="30px"
+              android:layout_marginTop="80px"
+              android:tag="(0,0,50){40,80,30,0}"
+              android:layout_marginLeft="40px"
+              android:text="1"
+              android:textColor="#FD9809"
+              tools:textSize="50px" />-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250px"
+            android:layout_marginTop="50px"
+            android:orientation="horizontal"
+            android:tag="(0,0,50){250,50,0,0}">
+
+            <TextView
+                android:id="@+id/tv_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:tag="(0,0,50){0,0,0,0}"
+                android:text="1"
+                android:textColor="#FD9809"
+                android:textStyle="bold"
+                tools:textSize="50px" />
+
+            <TextView
+                android:id="@+id/text_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15px"
+                android:tag="(0,0,28){15,0,0,0}"
+                android:text="加息" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="45px"
+            android:layout_marginTop="25px"
+            android:tag="{45,25,0,0}(0,0,25)"
+            android:text="2015.5.6-2016.5.6"
+            android:textColor="@color/colorTextGrey"
+            tools:textSize="25px" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tag="(0,0,46)"
+        android:text="已使用"
+        android:textColor="@color/colorTextGrey"
+        android:visibility="gone"
+        tools:textSize="46px" />
+    <!--  <LinearLayout
+          android:id="@+id/back_ground_jiaxi"
+          android:layout_width="match_parent"
+          android:layout_height="302px"
+
+          android:orientation="vertical"
+          android:gravity="center"
+          android:tag="(0,302)">
+
+          <TextView
+              android:id="@+id/tv_01"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:tag="(0,0,100)"
+              android:text="1"
+              android:textColor="#FD9809"
+              android:layout_gravity="center"
+              android:gravity="center"
+              tools:textSize="100px" />
+
+
+
+          <TextView
+              android:id="@+id/tv_02"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:tag="(0,0,46)"
+              android:text="已使用"
+              android:textColor="@color/colorTextGrey"
+              android:visibility="gone"
+              tools:textSize="46px" />
+
+          <TextView
+              android:id="@+id/tv_03"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentBottom="true"
+              android:layout_marginTop="25px"
+              android:tag="{0,25,0,0}(0,0,25)"
+              android:text="2015.5.6-2016.5.6"
+              android:textColor="@color/colorTextGrey"
+              tools:textSize="25px" />
+
+
+
+      </LinearLayout>-->
+</LinearLayout>
